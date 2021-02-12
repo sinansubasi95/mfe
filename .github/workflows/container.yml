@@ -1,5 +1,3 @@
-name: deploy-container
-
 on:
   push:
     branches:
