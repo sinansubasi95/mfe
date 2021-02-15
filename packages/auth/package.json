@@ -2,9 +2,10 @@
   "name": "auth",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js"
   },
-  "dependencies": {
+  "dependencies": { 
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "react": "^17.0.1",
