@@ -1,8 +1,7 @@
 name: deploy-marketing
 
 on:
-  # push:
-  workflow_dispatch:
+workflow_dispatch:
     branches:
       - master
     paths:
