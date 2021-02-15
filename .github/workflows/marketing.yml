@@ -2,10 +2,10 @@ name: deploy-marketing
 
 on:
   workflow_dispatch:
-      branches:
-        - master
-      paths:
-        - 'packages/marketing/**'
+    branches:
+      - master
+    paths:
+      - 'packages/marketing/**'
 
 defaults:
   run:

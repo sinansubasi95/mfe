@@ -2,10 +2,10 @@ name: deploy-auth
 
 on:
   workflow_dispatch:
-      branches:
-        - master
-      paths:
-        - 'packages/auth/**'
+    branches:
+      - master
+    paths:
+      - 'packages/auth/**'
 
 defaults:
   run:
